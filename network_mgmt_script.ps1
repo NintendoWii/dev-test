@@ -14,3 +14,5 @@ $body = @{
 $url= 'dev.developer.com/api/$token/$network'
 
 Invoke-RestMethod -Uri $url -Method Post -Headers $headers -Body $body -ContentType "application/json"
+
+#youre a sucker.
